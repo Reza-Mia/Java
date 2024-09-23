@@ -1,0 +1,34 @@
+import java.sql.PseudoColumnUsage;
+import java.util.Scanner;
+//RezaMiaMona====PascalConvention====dekhar por bujte hobe eta diye class bujayche
+//rezaMiaMona====camelCaseConvention===this for Function.
+public class Scanner_CWH5 {
+    public static void main(String[] args) {
+        System.out.println("Take Input Numbers from Users");
+        Scanner rm=new Scanner(System.in);
+
+        System.out.println("Enter your first number ");
+        boolean b1=rm.hasNextInt();//its actually checking our input is INT or not
+        System.out.println(b1);
+
+        float a1=rm.nextFloat();
+
+
+        //        int a = rm.nextInt();
+
+        System.out.println("Enter your second number ");
+        boolean bol= rm.hasNextFloat();//its actually checking our input is float or not
+        System.out.println(bol);
+        float a= rm.nextFloat();
+
+//        boolean bol= rm.hasNextFloat();//.hasNextFloat or hasNextInt eta diye bujaychi je ami je 2nd number nichi oita ki asolei INT or Float or enythinhg
+//        System.out.println(bol);
+//        int b=rm.nextInt();
+//        float b=rm.nextFloat();
+        float sum=a1+a;
+        System.out.println("The sum is:");
+        System.out.println(sum);
+
+
+    }
+}
